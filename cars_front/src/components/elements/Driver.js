@@ -9,7 +9,7 @@ const Driver = ({driverInfo}) => {
             <label>{driverInfo.secondname}</label>
             <kbd className='bg-dark'>Mail:</kbd>
             <label>{driverInfo.mail}</label>
-            <kbd className='bg-dark'>Balanse:</kbd>
+            <kbd className='bg-dark'>Balance:</kbd>
             <label className={driverInfo.price<0?'btn btn-danger':'btn btn-success'}>{driverInfo.price}</label>
         </div>
     );
